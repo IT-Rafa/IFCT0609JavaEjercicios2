@@ -1,0 +1,26 @@
+Tarea con ArrayList en Ficheros
+
+Realizar una aplicación gráfica que permita realizar la gestión de de alumnos de un centro de formación.
+
+Crear la clase con los campos:
+
+ nombre,
+ dni,
+ teléfono,
+ dirección,
+ provincia,
+ estado (soltero, casado)
+ y estudios(primaria, secundaria, FP o universitarios).
+
+Se deberá poder insertar, modificar, eliminar y listar alumnos.
+
+Añadir las opciones de cargar y guardar la información de los alumnos en un fichero  de texto.
+
+Se deberá utilizar un menú para las opciones principales indicadas.
+
+
+Insertar alguna imagen y una fecha para el dato que se quiera gestionar(p.ej. añadiendo fecha de matriculación.
+
+Utilizar radioButton, checkbox, combobox según se precise.
+
+Validar que en los campos numéricos solo contengan números.

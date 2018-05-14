@@ -1,0 +1,28 @@
+1. Programa que lea una cantidad de grados centígrados y la pase a grados Fahrenheit.
+	La fórmula correspondiente es: F = 32 + ( 9 * C / 5)
+
+2. Programa que lee por teclado el valor del radio de una circunferencia y calcula y
+	muestra por pantalla la longitud y el área de la circunferencia.
+	Longitud de la circunferencia = 2*PI*Radio, Area de la circunferencia = PI*Radio^2  
+
+3. Programa que pase una velocidad en Km/h a m/s. La velocidad se lee por teclado.
+	El programa finaliza con un 0.
+
+4. Programa que lee un número de 3 cifras y muestra sus cifras por separado.
+
+5. Programa que lea un número entero N de 5 cifras y muestre sus cifras desde el principio y
+	muestre sus cifras desde el final, por ejemplo: N 12345=  1 2 3 4 5 y 5 4 3 2 1 .
+
+6. Programa que calcula el número de la suerte de una persona a partir de su fecha de nacimiento.
+
+7. Programa que lea un número entero y muestre si el número es múltiplo de 10.
+
+8. Programa que lea un carácter por teclado y compruebe si es una letra mayúscula.
+	Si se introduce un número el programa avisa y  continua pidiendo letras.
+
+9. Programa que lea dos caracteres por teclado y compruebe si son iguales.
+
+10. Programa que lea dos números por teclado y muestre el resultado de la división del primero por
+	el segundo. Se debe comprobar que el divisor no puede ser cero. 
+
+11. Calcular el mayor de tres números enteros en Java.

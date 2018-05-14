@@ -1,0 +1,130 @@
+--ALUMNO--
+1
+11.111.111-a
+Alumno1
+Alumno1 Alumno1
+HOMBRE
+01 de enero de 2000
+01 de enero de 2011
+SOLTERO
+FP
+Alumno1_Alumno1_Alumno1.png
+0
+0
+--LENGUAJE--
+0
+--CONTACTO--
+1
+TELEFONO
+111 11 11 11
+--DIRECCION--
+1
+CAMINO
+nomcalle1
+1
+1
+a
+11111
+--FIN ALUMNO--
+--ALUMNO--
+2
+22.222.222-b
+Alumno2
+Alumno2 Alumno2
+MUJER
+11 de febrero de 2000
+11 de febrero de 2022
+SOLTERO
+PRIMARIA
+Alumno2_Alumno2_Alumno2.png
+0
+0
+--LENGUAJE--
+0
+--CONTACTO--
+2
+TELEFONO
+222 22 22 22
+TELEFONO
+222b 22b 22b 22b
+--DIRECCION--
+2
+CALLE
+nomcalle2
+2
+2
+b
+22222b
+CARRETERA
+nomcalle2b
+2b
+2b
+bb
+22222b
+--FIN ALUMNO--
+--ALUMNO--
+3
+33.333.333-c
+Alumno3
+Alumno3 Alumno3
+MUJER
+21 de marzo de 2000
+22 de marzo de 2023
+SOLTERO
+SECUNDARIA
+Alumno3_Alumno3_Alumno3.png
+0
+0
+--LENGUAJE--
+0
+--CONTACTO--
+1
+TELEFONO
+333 33 33 33
+--DIRECCION--
+1
+CALLE
+nomcalle3
+3
+3
+c
+36333
+--FIN ALUMNO--
+--ALUMNO--
+100
+36.143.961-j
+Rafael
+Martínez Costas
+HOMBRE
+06 de octubre de 1974
+10 de junio de 2018
+SOLTERO
+UNIVERSIDAD
+Rafael_Martínez_Costas.png
+0
+0
+--LENGUAJE--
+0
+--CONTACTO--
+3
+TELEFONO
+986 23 47 52
+EMAIL
+rafacorreo@gmail.com
+EMAIL
+otrorafacorreo@gmail.com
+--DIRECCION--
+2
+CALLE
+Costa
+2
+4
+a
+36333
+AVENIDA
+Costa2
+2
+4
+a
+362222
+--FIN ALUMNO--

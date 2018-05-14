@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in *.java; do
+    j=`echo $i | sed 's/png_2x//'`
+    mv $i $j
+done
