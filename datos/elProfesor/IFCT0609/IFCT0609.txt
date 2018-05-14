@@ -1,22 +1,23 @@
 --ALUMNO--
 1
-11.111.111-a
-Alumno1
-Alumno1 Alumno1
+11111111a
+Alumno
+Alumno Alumno
 HOMBRE
 01 de enero de 2000
-01 de enero de 2011
+01 de enero de 2018
 SOLTERO
 FP
 Alumno1_Alumno1_Alumno1.png
 0
 0
 --LENGUAJE--
-0
+1
+JAVA
 --CONTACTO--
 1
 TELEFONO
-111 11 11 11
+111111111
 --DIRECCION--
 1
 CAMINO
@@ -33,14 +34,16 @@ Alumno2
 Alumno2 Alumno2
 MUJER
 11 de febrero de 2000
-11 de febrero de 2022
+11 de febrero de 2018
 SOLTERO
 PRIMARIA
 Alumno2_Alumno2_Alumno2.png
 0
 0
 --LENGUAJE--
-0
+2
+JAVA
+JAVASCRIPT
 --CONTACTO--
 2
 TELEFONO
@@ -69,14 +72,17 @@ Alumno3
 Alumno3 Alumno3
 MUJER
 21 de marzo de 2000
-22 de marzo de 2023
+22 de marzo de 2018
 SOLTERO
 SECUNDARIA
 Alumno3_Alumno3_Alumno3.png
 0
 0
 --LENGUAJE--
-0
+3
+JAVA
+JAVASCRIPT
+C
 --CONTACTO--
 1
 TELEFONO
@@ -92,23 +98,27 @@ c
 --FIN ALUMNO--
 --ALUMNO--
 100
-36.143.961-j
+36143961j
 Rafael
 Martínez Costas
 HOMBRE
 06 de octubre de 1974
-10 de junio de 2018
+10 de mayo de 2018
 SOLTERO
 UNIVERSIDAD
 Rafael_Martínez_Costas.png
 0
 0
 --LENGUAJE--
-0
+4
+C
+CSHARP
+JAVA
+JAVASCRIPT
 --CONTACTO--
 3
 TELEFONO
-986 23 47 52
+986234752
 EMAIL
 rafacorreo@gmail.com
 EMAIL

@@ -136,11 +136,11 @@
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="dniTXTFIELD" min="-2" pref="85" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="fechaNacDATECHOOSER" min="-2" pref="148" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="fechaNacDATECHOOSER" min="-2" pref="128" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="hombreRADIO" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="mujerRADIO" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -166,8 +166,8 @@
                                               </Group>
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Component id="estudioCOMBOBOX" max="32767" attributes="0"/>
-                                                  <Component id="fechaIngDATECHOOSER" pref="149" max="32767" attributes="0"/>
+                                                  <Component id="estudioCOMBOBOX" pref="149" max="32767" attributes="0"/>
+                                                  <Component id="fechaIngDATECHOOSER" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
@@ -251,8 +251,8 @@
                                       <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="dniTXTFIELD" min="-2" max="-2" attributes="0"/>
                                       <Component id="fechaNacDATECHOOSER" min="-2" max="-2" attributes="0"/>
                                   </Group>
@@ -301,7 +301,7 @@
                       <Component id="jPanel5" min="-2" pref="59" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jScrollPane3" min="-2" pref="35" max="-2" attributes="0"/>
-                      <EmptySpace pref="11" max="32767" attributes="0"/>
+                      <EmptySpace pref="46" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -442,6 +442,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Brasil"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nombreCalleDirTXTFIELDActionPerformed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JButton" name="siguienteDirBOTON">
                   <Properties>
@@ -478,6 +481,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="25"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numCalleDirTXTFIELDActionPerformed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JTextField" name="pisoCalleDirTXTFIELD">
                   <Properties>
@@ -503,6 +509,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="36200"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="codPostalDirTXTFIELDActionPerformed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
@@ -603,6 +612,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="jTextField7"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="descContactoTXTFIELDActionPerformed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JButton" name="previoContBOTON">
                   <Properties>
@@ -648,6 +660,9 @@
                 <Property name="horizontalAlignment" type="int" value="4"/>
                 <Property name="text" type="java.lang.String" value="99.999.99-J"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dniTXTFIELDActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
@@ -658,13 +673,17 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="nombre"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nombreTXTFIELDActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JTextField" name="apellidosTXTFIELD">
               <Properties>
                 <Property name="text" type="java.lang.String" value="apellidos"/>
               </Properties>
-            </Component>
-            <Component class="com.toedter.calendar.JDateChooser" name="fechaNacDATECHOOSER">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="apellidosTXTFIELDActionPerformed"/>
+              </Events>
             </Component>
             <Container class="javax.swing.JPanel" name="jPanel4">
               <Properties>
@@ -734,8 +753,6 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="com.toedter.calendar.JDateChooser" name="fechaIngDATECHOOSER">
-            </Component>
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;Estudio&lt;br&gt;Superior: &lt;/html&gt;"/>
@@ -1020,6 +1037,20 @@
                 </Component>
               </SubComponents>
             </Container>
+            <Component class="com.toedter.calendar.JDateChooser" name="fechaNacDATECHOOSER">
+              <Properties>
+                <Property name="maxSelectableDate" type="java.util.Date" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new Date()" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="fechaIngDATECHOOSER">
+              <Properties>
+                <Property name="maxSelectableDate" type="java.util.Date" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new Date()" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
@@ -1070,13 +1101,8 @@
                   <SubComponents>
                     <Component class="javax.swing.JTable" name="jTable1">
                       <Properties>
-                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                          <Table columnCount="4" rowCount="4">
-                            <Column editable="true" title="Title 1" type="java.lang.Object"/>
-                            <Column editable="true" title="Title 2" type="java.lang.Object"/>
-                            <Column editable="true" title="Title 3" type="java.lang.Object"/>
-                            <Column editable="true" title="Title 4" type="java.lang.Object"/>
-                          </Table>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="tableModel" type="code"/>
                         </Property>
                       </Properties>
                     </Component>

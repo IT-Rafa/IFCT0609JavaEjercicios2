@@ -22,7 +22,6 @@ public class Alumno extends Persona implements Serializable {
     //ATRIBUTOS OBJETO
     private int codAlumno;
     private Calendar fechaInscr;
-    private TipoEstudio estudioSuperior;   // Estudio superior hecho
     private ArrayList<Lenguaje> estudiaLenguaje;   // Lista de lenguajes que estudia
     //ATRIBUTOS CLASE
     private static int CANTALUMNOS;
@@ -30,13 +29,12 @@ public class Alumno extends Persona implements Serializable {
     //CONSTRUCTORES
     //Para usar realmente
     public Alumno(int codProf, Calendar fechaInscr, TipoEstudio estudioSuperior,
-            Lenguaje[] estudiaLenguaje, String dni, String nombre, String apellidos,
+            ArrayList<Lenguaje> estudiaLenguaje, String dni, String nombre, String apellidos,
             Sexo sexo, Calendar fechaNacimiento, EstadoCivil estado) {
         super(dni, nombre, apellidos,sexo, fechaNacimiento, estado, estudioSuperior);
         this.codAlumno = codProf;
         this.fechaInscr = fechaInscr;
-        this.estudioSuperior = estudioSuperior;
-        this.estudiaLenguaje = new ArrayList<>();
+        this.estudiaLenguaje =estudiaLenguaje;
         ++Alumno.CANTALUMNOS;
     }
 
@@ -72,13 +70,7 @@ public class Alumno extends Persona implements Serializable {
     public void setFechaInscr(Calendar fechaInscr) {
         this.fechaInscr = fechaInscr;
     }
-	public TipoEstudio getEstudioSuperior() {
-		return estudioSuperior;
-	}
 
-	public void setEstudioSuperior(TipoEstudio estudioSuperior) {
-		this.estudioSuperior = estudioSuperior;
-	}
     public ArrayList<Lenguaje> getEstudiaLenguaje() {
         return estudiaLenguaje;
     }
