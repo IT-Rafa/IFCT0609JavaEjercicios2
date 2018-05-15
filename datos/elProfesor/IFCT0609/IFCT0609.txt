@@ -1,7 +1,7 @@
 --ALUMNO--
 1
-11111111a
-Alumno
+11.111.111-a
+Juan de la Olla
 Alumno Alumno
 HOMBRE
 01 de enero de 2000
@@ -17,7 +17,7 @@ JAVA
 --CONTACTO--
 1
 TELEFONO
-111111111
+111 111 111
 --DIRECCION--
 1
 CAMINO
@@ -30,8 +30,8 @@ a
 --ALUMNO--
 2
 22.222.222-b
-Alumno2
-Alumno2 Alumno2
+Alumno Dos
+AlumnoDos AlumnoDos
 MUJER
 11 de febrero de 2000
 11 de febrero de 2018
@@ -47,7 +47,7 @@ JAVASCRIPT
 --CONTACTO--
 2
 TELEFONO
-222 22 22 22
+222 222 222
 TELEFONO
 222b 22b 22b 22b
 --DIRECCION--
@@ -57,7 +57,7 @@ nomcalle2
 2
 2
 b
-22222b
+33333
 CARRETERA
 nomcalle2b
 2b
@@ -68,8 +68,8 @@ bb
 --ALUMNO--
 3
 33.333.333-c
-Alumno3
-Alumno3 Alumno3
+Alumno Tres
+Alumnotres Alumnotres
 MUJER
 21 de marzo de 2000
 22 de marzo de 2018
@@ -80,13 +80,13 @@ Alumno3_Alumno3_Alumno3.png
 0
 --LENGUAJE--
 3
+C
 JAVA
 JAVASCRIPT
-C
 --CONTACTO--
 1
 TELEFONO
-333 33 33 33
+333 333 333
 --DIRECCION--
 1
 CALLE
@@ -98,7 +98,7 @@ c
 --FIN ALUMNO--
 --ALUMNO--
 100
-36143961j
+36.143.961-j
 Rafael
 Martínez Costas
 HOMBRE
@@ -118,7 +118,7 @@ JAVASCRIPT
 --CONTACTO--
 3
 TELEFONO
-986234752
+986 234 752
 EMAIL
 rafacorreo@gmail.com
 EMAIL
